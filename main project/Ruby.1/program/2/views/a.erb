@@ -1,0 +1,18 @@
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>title</title>
+</head>
+<body>
+    <ul>
+        <% @a.each do |a| %>
+            <li><%= a %></li>
+            <%= @b %>
+            <% @b = @b+1 %>
+        <% end %>
+        <% @c.each do |d| %>
+            <li><%= d %></li>
+        <% end %>
+    </ul>
+</body>
+</html>

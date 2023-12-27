@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8"><!日本語に変更>
+  <title>Hello</title><!タイトル名の変更>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css"><!cssとの融合>
+  <link rel="stylesheet" href="/assets/css/count.css">
+</head>
+<body>
+  <h1><%= @number %></h1>
+  <form action="/plus" method="POST">
+    <input type="submit" value="+">
+  </form>
+  <form action="/mains" method="POST">
+    <input type="submit" value="-">
+  </form>
+</body>
+</html>
