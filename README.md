@@ -1,5 +1,1 @@
-# rubyteam
-# rubyteam
-#rubyteam
-コメント追加ß
-# rubyteam
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
